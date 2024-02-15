@@ -1,0 +1,46 @@
+body {
+    background-color: #e6ffdb; /* Color de fondo principal (verde) */
+    font-family: 'Cabin', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+    background-color: #fff; /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000033;
+}
+
+h1 {
+    color: #4CAF50; /* Color de texto verde */
+}
+
+h2 {
+    color: #4CAF50; /* Color de texto verde */
+}
+
+button {
+    background-color: #4CAF50; /* Color de fondo del botón verde */
+    color: #fff; /* Color de texto del botón blanco */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45A049; /* Cambio de color de fondo al pasar el mouse por encima */
+    transition: 0.4s;
+}
+
+#passwordGenerated {
+    font-size: 20px;
+    font-weight: bold;
+    background: #d9d9d9; 
+    margin: 5px;
+}
